@@ -1,0 +1,10 @@
+﻿<Window x:Class="Adventure.Game"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Adventure: The Game!" Height="600" Width="800" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Closed="Window_Closed" Icon="/Adventure;component/Images/Smiley.png">
+    <Grid Background="Black">
+        <Button Content="Options" Height="100" HorizontalAlignment="Left" Margin="618,449,0,0" Name="buttonGameToOption" VerticalAlignment="Top" Width="148" Click="buttonGameToOption_Click" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="100" HorizontalAlignment="Left" Margin="12,449,0,0" Name="border1" VerticalAlignment="Top" Width="600" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="431" HorizontalAlignment="Left" Margin="618,12,0,0" Name="border2" VerticalAlignment="Top" Width="148"></Border>
+    </Grid>
+</Window>
